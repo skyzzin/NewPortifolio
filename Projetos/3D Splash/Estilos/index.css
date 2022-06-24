@@ -32,8 +32,7 @@ nav a img{
     color: black;
     background: white;
     border-radius: 30px;
-    font-size: 18pt;
-    
+    font-size: 18pt;   
 }
 .conta a:hover{
     background: rgba(255, 248, 248, 0.555);
@@ -55,7 +54,6 @@ nav a img{
 #contato::after{
     content: "Contato";
     color: black;
-    
 }
 #carrinho::after{
     content: "Loja";
@@ -70,10 +68,7 @@ nav a img{
     border-radius: 15px;
     border-bottom: 5px black solid;
     margin-top: 10px;
-   
-   
 }
-
 .redes{
     display: flex;
     justify-content: center;
@@ -87,7 +82,6 @@ nav a img{
     border-bottom: 5px solid black;
     border-radius: 5px;
 }
-
 @media(max-width: 500px){
     body{
         background: rgb(113, 113, 247);
