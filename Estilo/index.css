@@ -1,10 +1,24 @@
 body{
     background: linear-gradient(to left, rgb(42, 149, 211) , rgb(68, 100, 240) );
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;    
+    border-bottom: 3px solid black;
+    
+}
+.logo a{
+    color: rgb(73, 73, 153);
+    font-size: 50pt;
+    text-decoration: none;
+}
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 50px;
+    
+  
 }
 .navbar a {
     color: black;
@@ -12,8 +26,10 @@ body{
     font-size: 27pt;
     border: 3px solid black;
     border-radius: 12px;
-    margin-top: 20px;
     background: rgba(255, 255, 255, 0.418);
+    height: 45px;
+    
+    
 }
 .navbar a:hover{
     background: rgba(0, 0, 0, 0.288);
