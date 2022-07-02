@@ -33,6 +33,7 @@ nav a img{
     background: white;
     border-radius: 30px;
     font-size: 18pt;   
+    padding: 4px;
 }
 .conta a:hover{
     background: rgba(255, 248, 248, 0.555);
