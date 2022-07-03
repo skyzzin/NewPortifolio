@@ -1,3 +1,7 @@
+*{
+    
+    margin: 0;
+}
 body{
     background: linear-gradient(to left, rgb(42, 149, 211) , rgb(68, 100, 240) );
 }
@@ -38,9 +42,10 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 .text{
-    
+    margin-top: 100px;
     font-size: 18pt;
     text-decoration: underline;
 }
