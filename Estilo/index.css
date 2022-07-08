@@ -3,20 +3,31 @@
     margin: 0;
 }
 body{
-    background: linear-gradient(to left, rgb(42, 149, 211) , rgb(68, 100, 240) );
+    color: rgb(71, 13, 117);
+    background: linear-gradient(to left, rgb(169, 117, 236) , rgb(216, 149, 255) );
 }
 header{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;    
-    border-bottom: 3px solid black;
+    margin-top: 50px;    
+   
     
 }
-.logo a{
-    color: rgb(73, 73, 153);
-    font-size: 50pt;
-    text-decoration: none;
+hr{
+   
+    border: 1px solid rgb(71, 13, 117);
 }
+.logo img{
+    position: relative;
+    top: -15px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-around;
